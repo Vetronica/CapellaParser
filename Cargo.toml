@@ -1,0 +1,13 @@
+[package]
+name = "capella-parser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+quickxml_to_serde = "0.5.0"
+serde = { version = "1.0.188", features = ["derive"] }
+serde-xml-rs = "0.6.0"
+serde_json = "1.0.107"
+xml = "0.8.10"
